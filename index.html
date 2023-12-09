@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts
+.googleapis.com/css2?family=Changa:wght@200&family=Lato:ital,wght@0,300;0,400;0,700
+;0,900;1,300;1,400;1,700;1,
+900&family=Montserrat:wght@100;200;400;500;600;700;800;900&family=
+Open+Sans:wght@400;700&family=Pangolin&family=Poppins
+:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500
+;700;900&family=Rubik:wght@300;400;500;
+600&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio|Advansed web site|js|css|html</title>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="main.html" class="nav__logo"><img src="images/logo.png" alt="nav logo"></a>
+
+
+            <div class="mood">
+                <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+
+            
+            <ul class="nav__linkes">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibitions</a></li>
+            </ul>
+            <ul class="nav__sociale">
+                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+            <button class="nav__toggle-btn" id="nav__toggle-opne"><i class="fa-solid fa-bars"></i></button>
+            <button class="nav__toggle-btn" id="nav__toggle-close"><i class="fa-solid fa-x"></i></button> 
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start HEADER -->
+    <header id="home">
+        <div class="container header__container">
+            <div class="lift">
+                <div class="header__image-bg"></div>
+                <div class="header__image-lg">
+                    <img src="images/header.jpg" alt="header img">
+                </div>
+                <div class="header__image-sm">
+                    <img src="images/header.jpg" alt="header img">
+                </div>
+            </div>
+            <div class="right">
+                <div class="header___hed">
+                    <div class="empty header__empty"></div>
+                    <a href="#" class="header__tag">#Best Travel Photographer 2022</a>
+                </div>
+                <h1>see the beauty of the worled through my lense</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis at harum autem error, perspiciatis aliquam inventore officia repellat labore? Quisquam sequi sed ut corporis, aperiam id unde veniam eum! Error.</p>
+                <a href="mailto:shahienms30@gmail.com" class="header__btn-md">let's talk</a>
+            </div>
+        </div>
+    </header>
+    <div class="header__frames">
+        <div class="header__frame">
+            <img src="images/frame1.jpg" alt="header frame one">
+        </div>
+        <div class="header__frame">
+            <img src="images/frame2.jpg" alt="header frame tow">
+        </div>
+    </div>
+    <a href="mailto:shahienms30@gmail.com" class="contact__btn header__btn">
+        <i class="fa-solid fa-arrow-up"></i>
+        <p>CONTACT - SEND MY AN EMAIL</p>
+    </a>
+    <!-- about section -->
+    <section id="about">
+        <div class="container about__container">
+            <h2 class="about__title">About<br>tomy hasan</h2>
+            <a href="mailto:shahienms30@gmail.com" class="contact__btn about__btn">
+                <i class="fa-solid fa-arrow-up"></i>
+                <p>CONTACT - SEND MY AN EMAIL</p>
+            </a>
+            <div class="about__left">
+                <div class="about__image">
+                    <div class="about__image-bg"></div>
+                    <div class="about__image-lg">
+                        <img src="images/about.jpg" alt="about tomy hasan">
+                    </div>
+                    <div class="about__image-sm">
+                        <img src="images/about.jpg" alt="about tomy hasan">
+                    </div>
+                </div>
+            </div>
+            <div class="about__right">
+                <div class="empty about__empty"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam nulla sunt voluptate fugit, aliquid cum ex aut adipisci deserunt velit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ea explicabo laudantium odio voluptatibus reiciendis dolore quisquam nihil, vel at doloremque esse saepe et, tenetur sed nam amet velit quasi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, obcaecati ipsa? Voluptatibus dolores cum nemo repellat magni aut!</p>
+            </div>
+        </div>
+    </section>
+    <!-- start gallery -->
+    <section id="gallery">
+        <div class="container gallery__container swiper mySwiper">
+            <div class="gallery_head">
+                <h2 class="gallery__title">MY GALLERY</h2>
+                <div class="empty gallery__empty"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus minus ducimus incidunt enim deleniti sint. Quod nemo voluptas ad nostrum harum consequuntur consectetur magni, aperiam voluptatem? Eligendi, dignissimos nisi.</p>
+            <div class="swiper-wrapper">
+                <article class="swiper-slide">
+                    <img src="images/gallery1.jpg" alt="photo">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery2.jpg" alt="photo">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery3.jpg" alt="photo">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery4.jpg" alt="photo">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery5.jpg" alt="photo">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery6.jpg" alt="photo">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery7.jpg" alt="photo">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery8.jpg" alt="photo">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery9.jpg" alt="photo">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery10.jpg" alt="photo">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery11.jpg" alt="photo">
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- start Exhibitions -->
+    <section id="exhibitions">
+        <div class="container exhibitions__container">
+            <h2 class="exhibitions__title">Exhibitions</h2>
+            <div class="empty exhibitions__empty"></div>
+            <div class="exhibitions__head">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ab beatae nemo nobis, iure cum sed aperiam quibusdam consequatur placeat ipsa mollitia omnis distinctio nam?</p>
+                <a href="mailto:shahienms30@gmail.com" class="contact__btn exhibitions__btn">
+                    <i class="fa-solid fa-arrow-up"></i>
+                    <p>CONTACT - SEND MY AN EMAIL</p>
+                </a>
+            </div>
+            <div class="exhibitions__gallery">
+                <article><img src="images/ev.jpg" alt="photo"></article>
+                <article><img src="images/eh.jpg" alt="photo"></article>
+                <article><img src="images/e1.jpg" alt="photo"></article>
+                <article><img src="images/e2.jpg" alt="photo"></article>
+                <article><img src="images/e3.jpg" alt="photo"></article>
+                <article><img src="images/e4.jpg" alt="photo"></article>
+                <article><img src="images/e5.jpg" alt="photo"></article>
+            </div>
+        </div>
+    </section>
+    <!--  footer-->
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__head">
+                <h2 class="footer__title">support@support.com</h2>
+                <a href="mailto:support@support.com" class="footer__btn ">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+            <ul class="footer__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibitions</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
